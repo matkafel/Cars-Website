@@ -1,8 +1,8 @@
 {
-  "name": "cars",
+  "name": "carswebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://matkafel.github.io/Cars-Website/",
+  "homepage": "https://matkafel.github.io/carswebsite/",
   "dependencies": {
     "aos": "^2.3.4",
     "framer-motion": "^2.6.5",
