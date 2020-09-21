@@ -24,7 +24,7 @@ const App = () => {
         <Container>
           <Wrapper>
             <HomeWrapper>
-              <Switch>
+              <BrowserRouter basename={window.location.pathname || ''}>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/type-of-cars" component={TypeOfCar} />
                 <Route exact path="/type-of-fuel" component={TypeOfFuel} />
@@ -35,7 +35,7 @@ const App = () => {
                 <Route exact path="/jaguar" component={Jaguar} />
                 <Route exact path="/jeep" component={Jeep} />
                 <Route exact path="/tesla" component={Tesla} />
-              </Switch>
+              </BrowserRouter>
             </HomeWrapper>
           </Wrapper>
         </Container>
