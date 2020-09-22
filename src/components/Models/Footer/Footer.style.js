@@ -30,8 +30,8 @@ export const ImgBrandLogo = styled.img`
     height: 30px;
     }
     @media (min-width: 1000px) and (orientation: landscape) {
-      width: 80px;
-    height: 50px;
+      width: 60px;
+    height: 40px;
     }
 
 `

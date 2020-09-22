@@ -94,6 +94,9 @@ export const MenuLinks = styled.div`
   @media (min-width: 1000px) and (orientation: landscape)  {
   top: 150px;
   }
+  @media (min-width: 1200px) and (orientation: landscape)  {
+  top: 50px;
+  }
 
 `;
 
@@ -267,7 +270,7 @@ export const Locations = styled.div`
   }
   @media (min-width: 1410px) and (orientation: landscape) {
     font-size: 1.4rem;
-    bottom: -40%;
+    bottom: -30%;
   }
 `;
 
