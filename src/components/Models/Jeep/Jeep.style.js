@@ -88,7 +88,7 @@ export const MainTitle = styled.h1`
     font-size: 6rem;
     line-height: 80px;
     }
-    @media (min-width: 1000px) and (orientation: landscape)  {
+    @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 8rem;
     line-height: 120px;
     }
@@ -205,12 +205,12 @@ export const ModelTextTitle = styled.h3`
     margin-top: 20%;
     }
     @media (min-width: 1200px) and (orientation: landscape)  {
-    font-size: 2.5rem;
-    margin-top: 14%;
+    font-size: 2rem;
+    margin-top: 22%;
     }  
     @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 3rem;
-    margin-top: 14%;
+    margin-top: 20%;
     }   
 `;
 
@@ -228,6 +228,9 @@ export const ModelTextDesc = styled.h3`
     }
     @media (min-width: 1000px) and (orientation: landscape)  {
     font-size: 1.2rem;
+    } 
+    @media (min-width: 1200px) and (orientation: landscape)  {
+    font-size: 1rem;
     }   
     @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 1.5rem;

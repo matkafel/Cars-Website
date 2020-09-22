@@ -15,7 +15,7 @@ export const H1 = styled.h1`
     text-align: center;
     margin-top: 100px;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 700;
     color: ${theme.colors.white};
     margin-bottom: 20px;
     @media (min-width: 760px) and (orientation: portrait)  {
@@ -89,6 +89,7 @@ export const H3 = styled.h3`
     color: ${theme.colors.white};
     text-align: center;
     margin-bottom: 5px;
+    font-weight: 500;
     @media (min-width: 1280px) and (orientation: landscape)  {
       font-size:30px;
   } 
@@ -98,7 +99,8 @@ export const Paragraph = styled.p`
     font-size: 10px;
     line-height:14px;
     text-align: justify;
-    color:  ${theme.colors.white};
+    color:  ${theme.colors.gray};
+    font-weight: 100;
     width: 90%;
     margin: 0 auto;
     @media (min-width: 760px) and (orientation: portrait)  {

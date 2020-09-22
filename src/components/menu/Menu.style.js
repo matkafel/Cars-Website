@@ -31,6 +31,7 @@ export const MenuSecondaryBackgroundColor = styled.div`
 export const Container = styled.div`
   width: 90vw;
   margin: 0 auto;
+  
 `;
 
 export const MenuLayer = styled.div`
@@ -142,9 +143,22 @@ export const Li = styled.li`
   font-size: 4rem;
   }
   @media (min-width: 1280px) and (orientation: landscape)  {
+   width: 500px;
+  height: 120px;
+  margin-left: 20%;
+  font-size: 5rem;
+  }
+  @media (min-width: 1410px) and (orientation: landscape)  {
+   width: 600px;
+  height: 135px;
+  margin-left: 20%;
+  font-size: 5.5rem;
+  }
+
+  @media (min-width: 1600px) and (orientation: landscape)  {
    width: 700px;
   height: 135px;
-  margin-left: 30%;
+  margin-left: 25%;
   font-size: 6rem;
   }
 `;
@@ -174,6 +188,15 @@ export const Info = styled.div`
   }
   @media (min-width: 1280px) and (orientation: landscape) {
     margin-right: 10%;
+    width: 300px;
+
+  }
+  @media (min-width: 1400px) and (orientation: landscape) {
+    margin-right: 10%;
+    width: 400px;
+  }
+  @media (min-width: 1600px) and (orientation: landscape) {
+    margin-right: 10%;
     width: 500px;
   }
 `;
@@ -196,6 +219,12 @@ export const Paragraph = styled.p`
     font-size: 0.5rem;
   }
   @media (min-width: 640px) and (orientation: landscape) {
+    font-size: 0.8rem;
+  }
+  @media (min-width: 1280px) and (orientation: landscape) {
+    font-size: 0.65rem;
+  }
+  @media (min-width: 1410px) and (orientation: landscape) {
     font-size: 0.8rem;
   }
 `;
@@ -233,6 +262,10 @@ export const Locations = styled.div`
     bottom: -30%;
   }
   @media (min-width: 1280px) and (orientation: landscape) {
+    font-size: 1.4rem;
+    bottom: -25%;
+  }
+  @media (min-width: 1410px) and (orientation: landscape) {
     font-size: 1.4rem;
     bottom: -40%;
   }

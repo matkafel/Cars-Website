@@ -105,12 +105,24 @@ export const MainTitle = styled.h1`
     font-size: 8rem;
     line-height: 120px;
   } 
+  @media (min-width: 1200px) and (orientation: landscape) {
+    width: 45%;
+    top: 40%;
+    font-size: 8rem;
+    line-height: 120px;
+  } 
   @media (min-width: 1400px) and (orientation: landscape) {
+    width: 40%;
+    top: 40%;
+    font-size: 10rem;
+    line-height: 140px;
+  }   
+  @media (min-width: 1600px) and (orientation: landscape) {
     width: 30%;
     top: 45%;
     font-size: 10rem;
     line-height: 140px;
-  }                    
+  }                  
 `;
 
 export const SecondSection = styled.div`
@@ -150,15 +162,20 @@ font-size: 2rem;
   @media (min-width: 1024px) and (orientation: landscape) {
     font-size: 2rem;
   } 
-  @media (min-width: 1024px) and (orientation: landscape) {
-    font-size: 2.5rem;
-  }      
+  @media (min-width: 1200px) and (orientation: landscape) {
+    font-size: 1.5rem;
+    margin: 18% auto 15px;
+  } 
+  @media (min-width: 1600px) and (orientation: landscape) {
+    font-size: 2rem;
+  }          
 `
 export const TextSectionContent = styled.p`
     font-size: .5rem;
     width: 70%;
     margin: 0 auto;
     text-align: justify;
+    font-weight: 300;
     @media (min-width: 400px) and (orientation: portrait) {
     font-size: .65rem;
   } 
@@ -177,7 +194,11 @@ export const TextSectionContent = styled.p`
   @media (min-width: 800px) and (orientation: landscape) {
     width: 60%;
     font-size:1.2rem;
-  }     
+  }  
+  @media (min-width: 1280px) and (orientation: landscape) {
+    width: 60%;
+    font-size:0.8rem;
+  }      
 `
 
 export const LogoSection = styled.div`
@@ -196,6 +217,10 @@ export const LogoImg = styled.img`
   @media (min-width: 1024px) and (orientation: landscape) {
     margin: 5% auto;
   } 
+  @media (min-width: 1200px) and (orientation: landscape) {
+    margin: 5% auto;
+    width: 80%;
+  }   
   @media (min-width: 1400px) and (orientation: landscape) {
     margin: 0 auto;
     width: 90%;
@@ -254,7 +279,7 @@ export const ModelText = styled.div`
         padding: 0 0px 30px 55px;
   } 
   @media (min-width: 1000px) and (orientation: landscape) {
-        padding: 0 0px 30px 90px;
+        padding: 0px 0px 30px 90px;
   }
   @media (min-width: 1400px) and (orientation: landscape) {
         padding: 0 0px 30px 200px;
@@ -278,15 +303,22 @@ export const TextTitle = styled.h3`
   @media (min-width: 1000px) and (orientation: landscape) {
         font-size: 2rem;
   }
+  @media (min-width: 1200px) and (orientation: landscape) {
+        font-size: 1.5rem;
+  }
   @media (min-width: 1400px) and (orientation: landscape) {
-        font-size: 2.5rem;
+        font-size: 2rem;
   }     
+  @media (min-width: 1600px) and (orientation: landscape) {
+        font-size: 2.5rem;
+  }   
 `;
 
 export const TextContent = styled.p`
     font-size:.5rem;
     width: 80%;
     margin-top: 0;
+    font-weight: 300;
     @media (min-width: 400px) and (orientation: portrait) {
     font-size: .6rem;
   }  
@@ -299,7 +331,13 @@ export const TextContent = styled.p`
   @media (min-width: 1000px) and (orientation: landscape) {
     font-size: .8rem;
   }  
+  @media (min-width: 1200px) and (orientation: landscape) {
+    font-size: .7rem;
+  }  
   @media (min-width: 1400px) and (orientation: landscape) {
+    font-size: .8rem;
+  } 
+  @media (min-width: 1600px) and (orientation: landscape) {
     font-size: 1rem;
   } 
 `

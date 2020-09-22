@@ -55,6 +55,10 @@ export const MainTitle = styled.h1`
     @media (min-width: 1000px) and (orientation: landscape)  {
     font-size: 4rem;
     }
+    @media (min-width: 1200px) and (orientation: landscape)  {
+    font-size: 4rem;
+    margin-top: 10%;  
+    } 
     @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 5rem;
     margin-top: 10%;  
@@ -159,6 +163,9 @@ export const BussinessTitle = styled.h3`
     font-size: 2rem;
     } 
     @media (min-width: 1000px) and (orientation: landscape)  {
+    font-size: 1.5rem;
+    } 
+    @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 2rem;
     } 
 `;
@@ -173,6 +180,9 @@ export const BussinessSubtitle = styled.h3`
     font-size: 1.2rem;
     }
     @media (min-width: 1000px) and (orientation: landscape)  {
+    font-size: 1.2rem;
+    } 
+    @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 2rem;
     } 
 `;
@@ -368,8 +378,14 @@ export const TextWrapper = styled.div`
     @media (min-width: 1000px) and (orientation: landscape)  {
     margin-top: 10%;
     } 
+    @media (min-width: 1200px) and (orientation: landscape)  {
+    margin-top: 12%;
+    } 
     @media (min-width: 1400px) and (orientation: landscape)  {
-    margin-top: 8%;
+    margin-top: 10%;
+    } 
+    @media (min-width: 1600px) and (orientation: landscape)  {
+    margin-top: 13%;
     } 
 `
 
@@ -382,10 +398,16 @@ export const ModelName = styled.h3`
     font-size: 2rem;
     } 
     @media (min-width: 1000px) and (orientation: landscape)  {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+    }
+    @media (min-width: 1200px) and (orientation: landscape)  {
+    font-size: 1.5rem;
     }
     @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 2rem;
+    }  
+    @media (min-width: 1600px) and (orientation: landscape)  {
+    font-size: 3rem;
     }  
 `;
 export const ModelDesc = styled.p`
@@ -400,7 +422,10 @@ export const ModelDesc = styled.p`
     margin-top: 0;
     }
     @media (min-width: 1000px) and (orientation: landscape)  {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    }
+    @media (min-width: 1200px) and (orientation: landscape)  {
+    font-size: 1.2rem;
     }
     @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 1.4rem;
@@ -417,6 +442,9 @@ export const ModelEngine = styled.p`
     } 
     @media (min-width: 1000px) and (orientation: landscape)  {
     font-size: 1rem;
+    }
+    @media (min-width: 1000px) and (orientation: landscape)  {
+    font-size: 0.8rem;
     }
     @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 1.2rem;

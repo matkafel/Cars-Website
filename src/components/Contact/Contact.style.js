@@ -88,6 +88,9 @@ export const FlexText = styled.div`
     @media (min-width: 1000px) and (orientation: landscape)  {
     width: 50%;
     }
+    @media (min-width: 1200px) and (orientation: landscape)  {
+    width: 40%;
+    }
     @media (min-width: 1400px) and (orientation: landscape)  {
     width: 30%;
     }
@@ -114,9 +117,16 @@ export const H2 = styled.h2`
         font-size: 4rem;
         margin: 0 100px 40px;
     }
+    @media (min-width: 1200px) and (orientation: landscape)  {
+        font-size: 3rem;
+        margin: 0 100px 40px;
+    }
     @media (min-width: 1400px) and (orientation: landscape)  {
-        font-size: 5rem;
+        font-size: 4rem;
         margin: 0 0 40px 200px;
+    }
+    @media (min-width: 1600px) and (orientation: landscape)  {
+        font-size: 5rem;
     }
 `;
 
@@ -135,6 +145,9 @@ export const Adress = styled.p`
     @media (min-width: 1000px) and (orientation: landscape)  {
         font-size: 1rem;
         maring: 10px;
+    }
+    @media (min-width: 1200px) and (orientation: landscape)  {
+        font-size: 1.2rem;
     }
     @media (min-width: 1400px) and (orientation: landscape)  {
         font-size: 1.5rem;

@@ -53,6 +53,15 @@ export const Headline = styled(motion.span)`
     font-size: 9rem;
   }
   @media (min-width: 1000px) and (orientation: landscape)  {
+    font-size: 8rem;
+  }
+  @media (min-width: 1200px) and (orientation: landscape)  {
+    font-size: 10rem;
+  }
+  @media (min-width: 1400px) and (orientation: landscape)  {
     font-size: 12rem;
+  }
+  @media (min-width: 1600px) and (orientation: landscape)  {
+    font-size: 16rem;
   }
 `;

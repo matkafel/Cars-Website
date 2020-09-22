@@ -13,6 +13,9 @@ export const FooterWrapper = styled.div`
     @media (min-width: 500px) and (orientation: landscape) {
     height: 15vh;
     }
+    @media (min-width: 1000px) and (orientation: landscape) {
+    height: 10vh;
+    }
 `;
 
 export const ImgBrandLogo = styled.img`
@@ -30,8 +33,5 @@ export const ImgBrandLogo = styled.img`
       width: 80px;
     height: 50px;
     }
-    @media (min-width: 1400px) and (orientation: landscape) {
-      width: 110px;
-    height: 70px;
-    }
+
 `

@@ -75,7 +75,13 @@ export const MainText = styled.div`
         margin-top: 15%;
     }
     @media (min-width: 1280px) and (orientation: landscape)  {
+        margin-top: 10%;
+    }
+    @media (min-width: 1410px) and (orientation: landscape)  {
         margin-top: 8%;
+    }
+    @media (min-width: 1600px) and (orientation: landscape)  {
+        margin-top: 10%;
     }
 `
 
@@ -94,9 +100,12 @@ export const MainTitle = styled.h2`
     font-size: 4rem;
     }
     @media (min-width: 1280px) and (orientation: landscape)  {
-    font-size: 5rem;
+    font-size: 4rem;
     }
     @media (min-width: 1410px) and (orientation: landscape)  {
+    font-size: 5rem;
+    }
+    @media (min-width: 1600px) and (orientation: landscape)  {
     font-size: 6rem;
     }
 `;

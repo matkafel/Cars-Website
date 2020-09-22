@@ -68,6 +68,11 @@ export const MainTitle = styled.h1`
   } 
   @media (min-width: 1280px) and (orientation: landscape)  {
     margin-top: 8%;
+    font-size:5rem;
+    line-height: 120px;
+  } 
+  @media (min-width: 1410px) and (orientation: landscape)  {
+    margin-top: 8%;
     font-size:6rem;
     line-height: 120px;
   } 
@@ -217,7 +222,11 @@ export const SecondSectionTitle = styled.h3`
    font-size: 2rem;
   }    
   @media (min-width: 1280px) and (orientation: landscape)  {
-   margin-top: 35%;
+   margin-top: 50%;
+   font-size: 2.5rem;
+  } 
+  @media (min-width: 1410px) and (orientation: landscape)  {
+   margin-top: 40%;
    font-size: 3rem;
   } 
 `;

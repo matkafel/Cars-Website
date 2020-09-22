@@ -66,7 +66,7 @@ export const H1 = styled.h1`
     text-align: center;
     margin-top: 80px;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 700;
     color: ${theme.colors.white};
     @media (min-width: 1000px) and (orientation: landscape)  {
       font-size: 40px;
@@ -120,8 +120,14 @@ export const TestimonialContainer = styled.div`
   height: 600px;
   position: relative;
   @media (min-width: 1280px) and (orientation: landscape)  {
-margin-top: 8%;
+margin-top: 4%;
   }  
+  @media (min-width: 1410px) and (orientation: landscape)  {
+margin-top: 8%;
+  }
+  @media (min-width: 1600px) and (orientation: landscape)  {
+margin-top: 15%;
+  }
 `;
 
 export const ArrowRight = styled.div`
@@ -143,6 +149,10 @@ z-index:1;
     right: 12%;
   }
   @media (min-width: 1200px) and (orientation: landscape)  {
+    right: 10%;
+    top: -200px;
+  }
+  @media (min-width: 1400px) and (orientation: landscape)  {
     right: 0;
     top: -200px;
   }
@@ -311,6 +321,10 @@ export const ContentInner = styled.div`
     width: 250px;
   }
   @media (min-width: 1200px) and (orientation: landscape)  {
+    width: 350px;
+  margin-left: 50px;
+  }
+  @media (min-width: 1400px) and (orientation: landscape)  {
     width: 450px;
   margin-left: 50px;
   }
@@ -321,7 +335,7 @@ export const Quote = styled.p`
   font-size:8px;
   letter-spacing: 0.9px;
   line-height: 12px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 10px;
   @media (min-width: 800px) and (orientation: landscape)  {
   font-size: 10px;
@@ -332,6 +346,10 @@ export const Quote = styled.p`
   line-height: 20px;
   }
   @media (min-width: 1200px) and (orientation: landscape)  {
+  font-size: 12px;
+  line-height: 22px;
+  }
+  @media (min-width: 1400px) and (orientation: landscape)  {
   font-size: 16px;
   line-height: 24px;
   }
@@ -341,12 +359,15 @@ export const Title = styled.h4`
   letter-spacing: 0.9px;
   font-size: 20px;
   color: ${theme.colors.white};
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 0;
   @media (min-width: 1000px) and (orientation: landscape)  {
-  font-size: 30px;
+  font-size: 25px;
   }
   @media (min-width: 1200px) and (orientation: landscape)  {
+  font-size: 30px;
+  }
+  @media (min-width: 1400px) and (orientation: landscape)  {
   font-size: 40px;
   }
 `;
