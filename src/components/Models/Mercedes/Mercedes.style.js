@@ -227,7 +227,7 @@ export const SecondSectionTitle = styled.h3`
   } 
   @media (min-width: 1410px) and (orientation: landscape)  {
    margin-top: 37%;
-   font-size: 3rem;
+   font-size: 2.5rem;
   } 
 `;
 

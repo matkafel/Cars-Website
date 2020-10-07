@@ -2,17 +2,10 @@ import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Header from '../../Header/Header';
-import FooterWrapper from '../Footer/Footer';
+import Footer from '../../Footer/Footer';
+import MercedesContent from './MercedesContent';
 import { Container, Main, MainTitle, IconScroll, SecondSection, Bussines, Confidence, Confort, Legend, SecondSectionTitle, ModelsWrapper, Model, Img } from './Mercedes.style';
 
-import AmgCoupe from '../../../images/Mercedes/Models/AMG-Coupe.png';
-import AmgGt2 from '../../../images/Mercedes/Models/AMG-GT2.png';
-import AmgSedan from '../../../images/Mercedes/Models/AMG-Sedan.png';
-import Gclass from '../../../images/Mercedes/Models/G-Class.png';
-import Gla from '../../../images/Mercedes/Models/GLA.png';
-import SClassCoupe from '../../../images/Mercedes/Models/S-Class-Coupe.png';
-import SClass from '../../../images/Mercedes/Models/S-Class.png';
-import SLRoadster from '../../../images/Mercedes/Models/SL-Roadster.png';
 
 
 const Mercedes = () => {
@@ -52,35 +45,15 @@ const Mercedes = () => {
                     </Legend>
                 </SecondSection>
                 <ModelsWrapper>
-                    <Model>
-                        <Img src={AmgCoupe} data-aos="fade-right" />
-                    </Model>
-                    <Model>
-                        <Img src={AmgGt2} data-aos="fade" />
-                    </Model>
-                    <Model>
-                        <Img src={AmgSedan} data-aos="fade-left" />
-                    </Model>
-                    <Model>
-                        <Img src={Gclass} data-aos="fade-right" />
-                    </Model>
-                    <Model>
-                        <Img src={Gla} data-aos="fade" />
-                    </Model>
-                    <Model>
-                        <Img src={SClassCoupe} data-aos="fade-left" />
-                    </Model>
-                    <Model>
-                        <Img src={SClass} data-aos="fade-right" />
-                    </Model>
-                    <Model>
-                        <Img src={SLRoadster} data-aos="fade" />
-                    </Model>
-                    <Model>
-                        <Img src={AmgSedan} data-aos="fade-left" />
-                    </Model>
+                    {MercedesContent.map((model) => {
+                        return (
+                            <Model>
+                                <Img src={model.Img} data-aos={model.AnimationAos} />
+                            </Model>
+                        )
+                    })}
                 </ModelsWrapper>
-                <FooterWrapper />
+                <Footer />
             </Container>
         </>
     )

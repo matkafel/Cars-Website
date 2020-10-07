@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Header from '../../Header/Header';
-import FooterWrapper from '../Footer/Footer';
+import Footer from '../../Footer/Footer';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Container, Main, Interior, MainTitle, MainText, IconScroll, ModelsWrapper, Mobility, Business, Sport, Convenience, Title, ImgCar } from './Audi.style'
@@ -51,7 +51,7 @@ const Audi = () => {
                         <ImgCar data-aos="fade-left" src={audiConvenience}></ImgCar>
                     </Convenience>
                 </ModelsWrapper>
-                <FooterWrapper />
+                <Footer />
             </Container>
         </>
     )

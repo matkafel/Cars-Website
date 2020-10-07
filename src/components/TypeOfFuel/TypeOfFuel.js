@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Header from '../Header/Header';
 import Aos from "aos";
-import Footer from "../../components/Models/Footer/Footer";
+import Footer from '../Footer/Footer';
 import { Container, H1, ContentWrapper, H3, Paragraph, ContentImg, ContentText, ImgEngine } from './TypeOfFuel.style';
 
 import petrol from "../../images/Fuel/fuel-petrol.png";
@@ -9,6 +9,8 @@ import diesel from "../../images/Fuel/fuel-diesel.png";
 import gas from "../../images/Fuel/fuel-gas.png";
 import electric from "../../images/Fuel/fuel-electric.png";
 import hybrid from "../../images/Fuel/fuel-hybrid.png";
+
+
 
 const TypeOfFuel = () => {
 

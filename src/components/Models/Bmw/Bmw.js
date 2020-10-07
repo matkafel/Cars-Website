@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Header from '../../Header/Header';
-import FooterWrapper from '../Footer/Footer';
+import Footer from '../../Footer/Footer';
 import { Container, Main, MainTitle, MainSubtitle, IconScroll, SecondSection, Bussiness, GranFace, GranBack, GranAll, BussinessTitle, BussinessSubtitle, BussinessModels, ModelsWrapper, ModelWrapper, ModelBg1, ModelBg2, ModelBg3, ModelBg4, ModelBg5, ModelBg6, ModelBg7, ModelBg8, Img, Text, TextWrapper, ModelName, ModelDesc, ModelEngine } from './Bmw.style';
 
 import X3 from '../../../images/Bmw/Models/Bmw-x3.png';
@@ -13,6 +13,8 @@ import M3 from '../../../images/Bmw/Models/Bmw-m3.png';
 import M5 from '../../../images/Bmw/Models/Bmw-m5.png';
 import M8 from '../../../images/Bmw/Models/Bmw-m8.png';
 import M8Gran from '../../../images/Bmw/Models/Bmw-m8-granCoupe.png';
+
+
 
 const Bmw = () => {
 
@@ -170,7 +172,7 @@ const Bmw = () => {
                         </Text>
                     </ModelWrapper>
                 </ModelsWrapper>
-                <FooterWrapper />
+                <Footer />
             </Container>
         </>
     )

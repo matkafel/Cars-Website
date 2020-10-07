@@ -166,6 +166,10 @@ font-size: 2rem;
     font-size: 1.5rem;
     margin: 12% auto 15px;
   } 
+  @media (min-width: 1400px) and (orientation: landscape) {
+    font-size: 1.5rem;
+    margin: 10% auto 15px;
+  } 
   @media (min-width: 1600px) and (orientation: landscape) {
     font-size: 2rem;
   }          
@@ -193,11 +197,11 @@ export const TextSectionContent = styled.p`
   } 
   @media (min-width: 1200px) and (orientation: landscape) {
     width: 60%;
-    font-size:1.2rem;
+    font-size:.8rem;
   }  
   @media (min-width: 1400px) and (orientation: landscape) {
     width: 60%;
-    font-size:1.4rem;
+    font-size:.8rem;
   }      
 `
 

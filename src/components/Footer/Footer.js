@@ -1,12 +1,12 @@
 import React from 'react';
 import { FooterWrapper, ImgBrandLogo } from './Footer.style';
 import { NavLink } from 'react-router-dom';
-import audiLogo from '../../../images/BrandsLogo/audi-logo.png';
-import bmwLogo from '../../../images/BrandsLogo/bmw-logo.png';
-import jaguarLogo from '../../../images/BrandsLogo/jaguar-logo.png';
-import jeepLogo from '../../../images/BrandsLogo/jeep-logo.png';
-import mercedesLogo from '../../../images/BrandsLogo/mercedes-logo.png';
-import teslaLogo from '../../../images/BrandsLogo/tesla-logo.png';
+import audiLogo from '../../images/BrandsLogo/audi-logo.png';
+import bmwLogo from '../../images/BrandsLogo/bmw-logo.png';
+import jaguarLogo from '../../images/BrandsLogo/jaguar-logo.png';
+import jeepLogo from '../../images/BrandsLogo/jeep-logo.png';
+import mercedesLogo from '../../images/BrandsLogo/mercedes-logo.png';
+import teslaLogo from '../../images/BrandsLogo/tesla-logo.png';
 
 const Footer = () => {
     return (

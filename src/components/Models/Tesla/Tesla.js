@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Header from '../../Header/Header';
-import FooterWrapper from '../Footer/Footer';
+import Footer from '../../Footer/Footer';
 import { Container, IconScroll, Title, Model3, ModelY, ModelX, ModelS } from './Tesla.style';
 
 
@@ -31,7 +31,7 @@ const Tesla = () => {
                 <ModelS data-aos="fade-up-right">
                     <Title>Model S</Title>
                 </ModelS>
-                <FooterWrapper />
+                <Footer />
             </Container>
         </>
     )
